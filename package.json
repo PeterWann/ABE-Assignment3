@@ -1,0 +1,27 @@
+{
+  "name": "abe-assignment3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sendReservationCs": "cd src/Reservations/CS && dotnet run",
+    "sendReservationJs": "node src/Reservations/JS/reservationSend",
+    "receiveReservationsJs": "node src/Reservations/JS/reservationReceive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterWann/ABE-Assignment3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PeterWann/ABE-Assignment3/issues"
+  },
+  "homepage": "https://github.com/PeterWann/ABE-Assignment3#readme",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "nodemon": "^2.0.16",
+    "typescript": "^4.6.4"
+  }
+}

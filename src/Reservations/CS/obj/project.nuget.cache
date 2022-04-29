@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "BScKb657qMc9rk7kNnSTwm7JuZB935MFLBP9URlE+Fab9m42rDhJ2f9Hgf4QAPwRziGsqKjAIP74SluWvoebUQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\augus\\Skole\\ABE\\ABE-Assignment3\\ABE-Assignment3\\src\\Reservations\\CS\\reservationSend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\augus\\.nuget\\packages\\rabbitmq.client\\6.2.1\\rabbitmq.client.6.2.1.nupkg.sha512",
+    "C:\\Users\\augus\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\augus\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
