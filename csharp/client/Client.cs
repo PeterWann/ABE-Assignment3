@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Code inspired from: https://rabbitmq.com/tutorials/tutorial-six-dotnet.html
+
+using System;
 using System.Collections.Concurrent;
 using System.Text;
 using RabbitMQ.Client;
