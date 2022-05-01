@@ -1,0 +1,26 @@
+{
+  "name": "assignment3",
+  "version": "1.0.0",
+  "description": "Assignment 3 - RabbitMQ",
+  "main": "node/server.js",
+  "client": "node/client.js",
+  "scripts": {
+    "tsc": "tsc -w",
+    "server": "nodemon dist/server.js",
+    "client": "nodemon dist/client.js",
+    "rabbitmq": "docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management"
+  },
+  "dependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "amqplib": "^0.8.0",
+    "express": "^4.18.1",
+    "helmet": "^5.0.2",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.3.1",
+    "nodemon": "^2.0.16",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "typecript": "^0.0.1-security"
+  }
+}
